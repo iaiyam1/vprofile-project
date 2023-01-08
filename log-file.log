@@ -1,0 +1,85 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.visualpathit:vprofile >----------------------
+[INFO] Building Visualpathit VProfile Webapp v2
+[INFO] --------------------------------[ war ]---------------------------------
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom
+Progress (1): 2.7/3.9 kBProgress (1): 3.9 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.pom (3.9 kB at 3.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar
+Progress (1): 2.7/25 kBProgress (1): 5.5/25 kBProgress (1): 8.2/25 kBProgress (1): 11/25 kB Progress (1): 14/25 kBProgress (1): 16/25 kBProgress (1): 19/25 kBProgress (1): 21/25 kBProgress (1): 24/25 kBProgress (1): 25 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.5/maven-clean-plugin-2.5.jar (25 kB at 513 kB/s)
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ vprofile ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom
+Progress (1): 2.7/4.1 kBProgress (1): 4.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.pom (4.1 kB at 254 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/16/spice-parent-16.pom
+Progress (1): 2.7/8.4 kBProgress (1): 5.5/8.4 kBProgress (1): 8.2/8.4 kBProgress (1): 8.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/16/spice-parent-16.pom (8.4 kB at 492 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/5/forge-parent-5.pom
+Progress (1): 2.7/8.4 kBProgress (1): 5.5/8.4 kBProgress (1): 8.2/8.4 kBProgress (1): 8.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/5/forge-parent-5.pom (8.4 kB at 492 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar
+Progress (1): 4.1/226 kBProgress (1): 8.2/226 kBProgress (1): 12/226 kB Progress (1): 16/226 kBProgress (1): 20/226 kBProgress (1): 25/226 kBProgress (1): 29/226 kBProgress (1): 33/226 kBProgress (1): 37/226 kBProgress (1): 41/226 kBProgress (1): 45/226 kBProgress (1): 49/226 kBProgress (1): 53/226 kBProgress (1): 57/226 kBProgress (1): 61/226 kBProgress (1): 66/226 kBProgress (1): 70/226 kBProgress (1): 74/226 kBProgress (1): 78/226 kBProgress (1): 82/226 kBProgress (1): 86/226 kBProgress (1): 90/226 kBProgress (1): 94/226 kBProgress (1): 98/226 kBProgress (1): 102/226 kBProgress (1): 106/226 kBProgress (1): 111/226 kBProgress (1): 115/226 kBProgress (1): 119/226 kBProgress (1): 123/226 kBProgress (1): 127/226 kBProgress (1): 131/226 kBProgress (1): 135/226 kBProgress (1): 139/226 kBProgress (1): 143/226 kBProgress (1): 147/226 kBProgress (1): 152/226 kBProgress (1): 156/226 kBProgress (1): 160/226 kBProgress (1): 164/226 kBProgress (1): 168/226 kBProgress (1): 172/226 kBProgress (1): 176/226 kBProgress (1): 180/226 kBProgress (1): 184/226 kBProgress (1): 188/226 kBProgress (1): 193/226 kBProgress (1): 197/226 kBProgress (1): 201/226 kBProgress (1): 205/226 kBProgress (1): 209/226 kBProgress (1): 213/226 kBProgress (1): 217/226 kBProgress (1): 221/226 kBProgress (1): 225/226 kBProgress (1): 226 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0/plexus-utils-3.0.jar (226 kB at 5.4 MB/s)
+[INFO] Deleting /Users/iyam/vprofile-project/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ vprofile ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.2.201409121644:prepare-agent (jacoco-initialize) @ vprofile ---
+[INFO] argLine set to -javaagent:/Users/iyam/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/Users/iyam/vprofile-project/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ vprofile ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 21 source files to /Users/iyam/vprofile-project/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ vprofile ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/iyam/vprofile-project/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ vprofile ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 5 source files to /Users/iyam/vprofile-project/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ vprofile ---
+[INFO] Surefire report directory: /Users/iyam/vprofile-project/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Exception in thread "main" java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:119)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:491)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:503)
+Caused by: java.lang.RuntimeException: Class java/util/UUID could not be instrumented.
+	at org.jacoco.agent.rt.internal_e6e56f0.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:139)
+	at org.jacoco.agent.rt.internal_e6e56f0.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:100)
+	at org.jacoco.agent.rt.internal_e6e56f0.PreMain.createRuntime(PreMain.java:55)
+	at org.jacoco.agent.rt.internal_e6e56f0.PreMain.premain(PreMain.java:47)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	... 3 more
+Caused by: java.lang.NoSuchFieldException: $jacocoAccess
+	at java.base/java.lang.Class.getField(Class.java:2167)
+	at org.jacoco.agent.rt.internal_e6e56f0.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:137)
+	... 7 more
+*** java.lang.instrument ASSERTION FAILED ***: "result" with message agent load/premain call failed at src/java.instrument/share/native/libinstrument/JPLISAgent.c line: 422
+FATAL ERROR in native method: processing of -javaagent failed, processJavaStart failed
+/bin/sh: line 1: 31627 Abort trap: 6           /usr/local/Cellar/openjdk/19.0.1/libexec/openjdk.jdk/Contents/Home/bin/java -javaagent:/Users/iyam/.m2/repository/org/jacoco/org.jacoco.agent/0.7.2.201409121644/org.jacoco.agent-0.7.2.201409121644-runtime.jar=destfile=/Users/iyam/vprofile-project/target/jacoco.exec -jar /Users/iyam/vprofile-project/target/surefire/surefirebooter3563729362947522845.jar /Users/iyam/vprofile-project/target/surefire/surefire6688869690549838776tmp /Users/iyam/vprofile-project/target/surefire/surefire_07593126757697720732tmp
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.597 s
+[INFO] Finished at: 2023-01-08T11:11:29Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project vprofile: Execution default-test of goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test failed: The forked VM terminated without saying properly goodbye. VM crash or System.exit called ? -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException
